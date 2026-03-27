@@ -1,4 +1,10 @@
 :root {
+  /* Figma color tokens */
+  --color-primary-500: #006653;
+  --color-primary-300: #33997f;
+  --color-secondary-500: #d4763a;
+  --color-secondary-300: #e0a474;
+
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
