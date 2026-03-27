@@ -10,10 +10,19 @@ function App() {
         <ColorSwatch />
       </section>
       <section className="preview-section">
-        <h2>Buttons</h2>
+        <h2>Button — Primary</h2>
         <div className="preview-row">
-          <Button variant="primary">Primary</Button>
-          <Button variant="ghost">Ghost</Button>
+          <Button variant="primary">Default</Button>
+          <Button variant="primary">Hover me</Button>
+          <Button variant="primary" disabled>Disabled</Button>
+        </div>
+      </section>
+      <section className="preview-section">
+        <h2>Button — Ghost</h2>
+        <div className="preview-row">
+          <Button variant="ghost">Default</Button>
+          <Button variant="ghost">Hover me</Button>
+          <Button variant="ghost" disabled>Disabled</Button>
         </div>
       </section>
     </main>

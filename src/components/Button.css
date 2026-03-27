@@ -2,19 +2,21 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 24px;
+  padding: 12px 32px;
   border-radius: 6px;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
   font-family: var(--sans);
   cursor: pointer;
+  border: 1px solid transparent;
   transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
+/* Primary */
 .btn--primary {
   background: var(--color-primary-500);
   color: #fff;
-  border: 2px solid var(--color-primary-500);
+  border-color: var(--color-primary-500);
 }
 
 .btn--primary:hover {
@@ -22,13 +24,28 @@
   border-color: var(--color-primary-300);
 }
 
+.btn--primary:disabled {
+  background: var(--color-disabled);
+  border-color: var(--color-disabled);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: not-allowed;
+}
+
+/* Ghost */
 .btn--ghost {
   background: transparent;
   color: var(--color-primary-500);
-  border: 2px solid var(--color-primary-500);
+  border-color: var(--color-primary-500);
 }
 
 .btn--ghost:hover {
   background: var(--color-primary-500);
   color: #fff;
+}
+
+.btn--ghost:disabled {
+  background: transparent;
+  color: var(--color-disabled);
+  border-color: var(--color-disabled);
+  cursor: not-allowed;
 }
