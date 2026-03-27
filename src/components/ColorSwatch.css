@@ -1,0 +1,38 @@
+.swatches {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.swatch {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100px;
+}
+
+.swatch-color {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.swatch-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  text-align: left;
+}
+
+.swatch-name {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+.swatch-hex {
+  font-size: 12px;
+  color: var(--text);
+  font-family: var(--mono);
+}
