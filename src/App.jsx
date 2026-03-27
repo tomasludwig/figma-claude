@@ -13,7 +13,6 @@ function App() {
         <h2>Button — Primary</h2>
         <div className="preview-row">
           <Button variant="primary">Default</Button>
-          <Button variant="primary">Hover me</Button>
           <Button variant="primary" disabled>Disabled</Button>
         </div>
       </section>
@@ -21,7 +20,6 @@ function App() {
         <h2>Button — Ghost</h2>
         <div className="preview-row">
           <Button variant="ghost">Default</Button>
-          <Button variant="ghost">Hover me</Button>
           <Button variant="ghost" disabled>Disabled</Button>
         </div>
       </section>
